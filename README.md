@@ -1,12 +1,14 @@
 # Grapply
 
+![grrapply](/images/grapply_anim.gif)
+
 #### Grapply is a simple game where you use a grappling hook to fly around the screen to reach goals as fast as possible.
 
 I wrote this game as a test bed to experiment with and write code that efficiently generates catenary curves between two points in real time (to simulate a rope going slack) and to do gravity and centrifugal force simulation.
 
 I found that using an iterative process (Newton’s method) to solve for the catenary curve gave me real-time results and accuracy. I’ve made this code open source in the hopes that someone else might find the particular piece of code that generates catenary curves useful. You'll find that specific code here:
 
-https://github.com/TotallyHumanGameDevs/grapply/blob/main/Assets/Rope.cs
+[/Assets/Rope.cs](/Assets/Rope.cs)
 
  
 #### Good reads on catenary curves and other links that were helpful for writing the code:
